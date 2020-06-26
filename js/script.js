@@ -15,6 +15,7 @@ $( document ).ready(function() {
 		    url: "https://www.googleapis.com/webfonts/v1/webfonts?key=AIzaSyD-QQPRudytxbADemzGoh018YvoymdVCaY",
 		    type: "GET",
 		    dataType: 'json',
+		    crossDomain : true,
 		    cache: true,
 		    success: function (data, status, error) {
 		      getlist(data, status, error)
