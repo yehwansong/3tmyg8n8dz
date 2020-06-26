@@ -12,7 +12,7 @@ $( document ).ready(function() {
 
 		const FontArray = []
 		$.ajax({
-		    url: "https://www.googleapis.com/webfonts/v1/webfonts?key=AIzaSyD-QQPRudytxbADemzGoh018YvoymdVCaY",
+		    url: "https://www.googleapis.com/webfonts/v1/webfonts?key=AIzaSyCxzLzCFosJX6B9rOiy3xBu0J2TAlRBzXg",
 		    type: "GET",
 		    dataType: 'json',
 		    crossDomain : true,
